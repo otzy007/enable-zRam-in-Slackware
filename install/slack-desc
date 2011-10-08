@@ -2,5 +2,5 @@ enable-zRam: Enable zRam
 enable-zRam: 
 enable-zRam: rc.d script to enable zRam ( virtual swap compressed in ram)
 enable-zRam: 
-enable-zRam: https://github.com/otzy007/zRam-enable-script-for-Slackware
+enable-zRam: https://github.com/otzy007/enable-zRam-in-Slackware
 enable-zRam: 
