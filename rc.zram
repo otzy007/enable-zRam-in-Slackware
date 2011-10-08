@@ -1,9 +1,11 @@
 #!/bin/bash
-#Script to start zRam (Virtual Swap Compressed in RAM)
+# Script to start zRam (Virtual Swap Compressed in RAM)
+# https://github.com/otzy007/zRam-enable-script-for-Slackware
 
-#Size of swap space in MB
-#default 1GB
+# Size of swap space in MB
+# default 1GB
 SIZE=1024
+
 start() {
   modprobe zram
   echo $SIZE*1024*1024 | bc > /sys/block/zram0/disksize
