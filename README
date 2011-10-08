@@ -1,4 +1,4 @@
 Script to enable zRam in Slackware Linux
 More info: http://oprod.net/index.php/news/4-blog/92-compress-ram-with-zram-in-slackware
 
-to make your own tarball: makepkg -c n enable-zram-noarch.tgz
+To make your own tarball: makepkg -c n enable-zram-noarch.tgz
