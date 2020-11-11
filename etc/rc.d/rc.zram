@@ -5,12 +5,13 @@
 # Size of swap space in MB
 # default 1GB
 SIZE=1024
+PRIORITY=10
 
 start() {
   modprobe zram
   echo $SIZE*1024*1024 | bc > /sys/block/zram0/disksize
   mkswap /dev/zram0
-  swapon /dev/zram0
+  swapon /dev/zram0 -o pri=$PRIORITY
 }
 
 stop() {
